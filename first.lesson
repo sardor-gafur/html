@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mening birinchi sahifam</title>
+</head>
+
+<body>
+
+    <h1>Xush kelibsiz!</h1>
+
+    <p>Bu mening birinchi HTML sahifam.</p>
+
+    <h2>Men haqimda</h2>
+
+    <p>Ismim Sardor.</p>
+    <p>Men Frontend dasturchi bo'lishni o'rganyapman.</p>
+
+    <h2>Sevimli dasturlash tillarim</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <button>Bos!</button>
+
+</body>
+
+</html>
