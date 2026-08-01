@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sardorning Portfolio Sayti</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Sardorning Portfolio Sayti</h1>
+        <p>Frontend Developer bo'lish yo'lida</p>
+    </header>
+
+    <hr>
+
+    <!-- Menu -->
+    <nav>
+        <a href="#home">Bosh sahifa</a> |
+        <a href="#about">Men haqimda</a> |
+        <a href="#skills">Ko'nikmalar</a> |
+        <a href="#projects">Loyihalar</a> |
+        <a href="#contact">Bog'lanish</a>
+    </nav>
+
+    <hr>
+
+    <!-- Home -->
+    <section id="home">
+        <h2>Bosh sahifa</h2>
+        <img src="https://picsum.photos/250" alt="Profil rasmi">
+        <p>
+            Assalomu alaykum! Men HTML, CSS, JavaScript va Python
+            dasturlash tillarini o'rganmoqdaman.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- About -->
+    <section id="about">
+        <h2>Men haqimda</h2>
+
+        <article>
+            <h3>Ta'lim</h3>
+            <p>Kompyuter fanlari bo'yicha o'qishni rejalashtiryapman.</p>
+        </article>
+
+        <article>
+            <h3>Maqsad</h3>
+            <p>Kelajakda Software Engineer bo'lish.</p>
+        </article>
+    </section>
+
+    <hr>
+
+    <!-- Skills -->
+    <section id="skills">
+
+        <h2>Ko'nikmalar</h2>
+
+        <ul>
+            <li>HTML ⭐⭐⭐⭐</li>
+            <li>CSS ⭐⭐⭐</li>
+            <li>JavaScript ⭐⭐</li>
+            <li>Python ⭐⭐⭐</li>
+            <li>Git & GitHub ⭐⭐</li>
+        </ul>
+
+    </section>
+
+    <hr>
+
+    <!-- Jadval -->
+    <section id="projects">
+
+        <h2>Loyihalar</h2>
+
+        <table border="1">
+
+            <tr>
+                <th>Loyiha</th>
+                <th>Holati</th>
+                <th>Yili</th>
+            </tr>
+
+            <tr>
+                <td>Kalkulyator</td>
+                <td>Tugallangan</td>
+                <td>2026</td>
+            </tr>
+
+            <tr>
+                <td>Portfolio</td>
+                <td>Jarayonda</td>
+                <td>2026</td>
+            </tr>
+
+            <tr>
+                <td>ToDo App</td>
+                <td>Rejalashtirilgan</td>
+                <td>2027</td>
+            </tr>
+
+        </table>
+
+    </section>
+
+    <hr>
+
+    <!-- Video -->
+    <section>
+
+        <h2>Video</h2>
+
+        <video width="400" controls>
+            <source src="video.mp4" type="video/mp4">
+            Brauzeringiz video formatini qo'llab-quvvatlamaydi.
+        </video>
+
+    </section>
+
+    <hr>
+
+    <!-- Audio -->
+    <section>
+
+        <h2>Audio</h2>
+
+        <audio controls>
+            <source src="music.mp3" type="audio/mpeg">
+        </audio>
+
+    </section>
+
+    <hr>
+
+    <!-- Forma -->
+    <section id="contact">
+
+        <h2>Bog'lanish</h2>
+
+        <form>
+
+            <label>Ism</label><br>
+            <input type="text"><br><br>
+
+            <label>Email</label><br>
+            <input type="email"><br><br>
+
+            <label>Yosh</label><br>
+            <input type="number"><br><br>
+
+            <label>Tug'ilgan sana</label><br>
+            <input type="date"><br><br>
+
+            <label>Jins</label><br>
+
+            <input type="radio" name="gender"> Erkak
+            <input type="radio" name="gender"> Ayol
+
+            <br><br>
+
+            <label>Qiziqishlar</label><br>
+
+            <input type="checkbox"> HTML
+            <input type="checkbox"> CSS
+            <input type="checkbox"> JavaScript
+            <input type="checkbox"> Python
+
+            <br><br>
+
+            <label>Xabar</label><br>
+
+            <textarea rows="5" cols="40"></textarea>
+
+            <br><br>
+
+            <button>Yuborish</button>
+
+        </form>
+
+    </section>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Sardor Portfolio</p>
+
+    </footer>
+
+</body>
+
+</html>
