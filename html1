@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening Birinchi Saytim</title>
+</head>
+
+<body>
+
+    <!-- Sarlavha -->
+    <h1>Xush kelibsiz!</h1>
+
+    <!-- Paragraf -->
+    <p>Bu mening birinchi HTML sahifam.</p>
+
+    <!-- Chiziq -->
+    <hr>
+
+    <!-- Rasm -->
+    <img src="https://picsum.photos/300" alt="Tasodifiy rasm">
+
+    <br><br>
+
+    <!-- Havola -->
+    <a href="https://google.com" target="_blank">
+        Google saytiga o'tish
+    </a>
+
+    <hr>
+
+    <!-- Ro'yxat -->
+    <h2>Sevimli dasturlash tillari</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>
+
+    <hr>
+
+    <!-- Jadval -->
+    <h2>Baholar</h2>
+
+    <table border="1">
+        <tr>
+            <th>Fan</th>
+            <th>Baho</th>
+        </tr>
+
+        <tr>
+            <td>Matematika</td>
+            <td>95</td>
+        </tr>
+
+        <tr>
+            <td>Ingliz tili</td>
+            <td>88</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Forma -->
+    <h2>Ro'yxatdan o'tish</h2>
+
+    <form>
+
+        <label>Ismingiz:</label><br>
+        <input type="text" placeholder="Ismingiz"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Email"><br><br>
+
+        <label>Parol:</label><br>
+        <input type="password" placeholder="Parol"><br><br>
+
+        <button>Yuborish</button>
+
+    </form>
+
+</body>
+
+</html>
