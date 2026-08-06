@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Milliy Taomlar</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f8f8f8;
+}
+
+header{
+    background:#8B0000;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-size:18px;
+}
+
+section{
+    width:85%;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+.menu{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.item{
+    width:250px;
+    background:#f2f2f2;
+    margin:15px;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+}
+
+button{
+    background:#8B0000;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Milliy Taomlar Restorani</h1>
+<p>Eng mazali o'zbek milliy taomlari</p>
+</header>
+
+<nav>
+<a href="#">Bosh sahifa</a>
+<a href="#">Menyu</a>
+<a href="#">Buyurtma</a>
+<a href="#">Aloqa</a>
+</nav>
+
+<section>
+<h2>Biz haqimizda</h2>
+<p>
+Bizning restoranimizda palov, shashlik, somsa,
+manti va boshqa milliy taomlar tayyorlanadi.
+</p>
+</section>
+
+<section>
+<h2>Menyu</h2>
+
+<div class="menu">
+
+<div class="item">
+<h3>Palov</h3>
+<p>Narxi: 35 000 so'm</p>
+<button>Buyurtma</button>
+</div>
+
+<div class="item">
+<h3>Shashlik</h3>
+<p>Narxi: 18 000 so'm</p>
+<button>Buyurtma</button>
+</div>
+
+<div class="item">
+<h3>Manti</h3>
+<p>Narxi: 30 000 so'm</p>
+<button>Buyurtma</button>
+</div>
+
+<div class="item">
+<h3>Somsa</h3>
+<p>Narxi: 8 000 so'm</p>
+<button>Buyurtma</button>
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2>Buyurtma berish</h2>
+
+<form>
+<label>Ism:</label><br>
+<input type="text"><br><br>
+
+<label>Telefon:</label><br>
+<input type="tel"><br><br>
+
+<label>Taom:</label><br>
+
+<select>
+<option>Palov</option>
+<option>Shashlik</option>
+<option>Manti</option>
+<option>Somsa</option>
+</select>
+
+<br><br>
+
+<button>Yuborish</button>
+
+</form>
+
+</section>
+
+<footer>
+<p>© 2026 Milliy Taomlar Restorani</p>
+</footer>
+
+</body>
+</html>
