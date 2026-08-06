@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#eef2f7;
+}
+
+header{
+    background:#1f4e79;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+nav{
+    background:#16324f;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-size:18px;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    margin:20px 0;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.skills{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.skill{
+    background:#1f4e79;
+    color:white;
+    padding:10px 20px;
+    border-radius:20px;
+}
+
+img{
+    width:180px;
+    border-radius:50%;
+}
+
+footer{
+    background:#1f4e79;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Sardorbek G'afurov</h1>
+    <p>Web Developer | HTML | CSS | JavaScript</p>
+</header>
+
+<nav>
+    <a href="#">Bosh sahifa</a>
+    <a href="#">Men haqimda</a>
+    <a href="#">Loyihalar</a>
+    <a href="#">Aloqa</a>
+</nav>
+
+<div class="container">
+
+<div class="card">
+    <h2>Men haqimda</h2>
+    <p>
+        Men zamonaviy veb-saytlar yaratishga qiziqaman.
+        HTML, CSS va JavaScript texnologiyalarini o'rganmoqdaman.
+    </p>
+</div>
+
+<div class="card">
+    <h2>Ko'nikmalar</h2>
+
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Git</div>
+    </div>
+
+</div>
+
+<div class="card">
+    <h2>Loyihalar</h2>
+
+    <ol>
+        <li>Portfolio sayti</li>
+        <li>Onlayn do'kon</li>
+        <li>Yangiliklar sayti</li>
+        <li>Blog platformasi</li>
+    </ol>
+
+</div>
+
+<div class="card">
+    <h2>Bog'lanish</h2>
+
+    <form>
+
+        <label>Ism:</label><br>
+        <input type="text"><br><br>
+
+        <label>Email:</label><br>
+        <input type="email"><br><br>
+
+        <label>Xabar:</label><br>
+        <textarea rows="5" cols="40"></textarea><br><br>
+
+        <button>Yuborish</button>
+
+    </form>
+
+</div>
+
+</div>
+
+<footer>
+    <p>© 2026 Portfolio. Barcha huquqlar himoyalangan.</p>
+</footer>
+
+</body>
+</html>
