@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening HTML Saytim</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background:#f2f2f2;
+        }
+
+        header{
+            background:#0066cc;
+            color:white;
+            text-align:center;
+            padding:30px;
+        }
+
+        nav{
+            background:#333;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        section{
+            background:white;
+            width:80%;
+            margin:20px auto;
+            padding:20px;
+            border-radius:10px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+        }
+
+        table, th, td{
+            border:1px solid black;
+        }
+
+        th, td{
+            padding:10px;
+            text-align:center;
+        }
+
+        form input, form textarea{
+            width:100%;
+            padding:10px;
+            margin:10px 0;
+        }
+
+        button{
+            background:#0066cc;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            cursor:pointer;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Xush kelibsiz!</h1>
+    <p>Bu HTML va CSS yordamida yaratilgan oddiy veb-sayt.</p>
+</header>
+
+<nav>
+    <a href="#">Bosh sahifa</a>
+    <a href="#">Biz haqimizda</a>
+    <a href="#">Xizmatlar</a>
+    <a href="#">Aloqa</a>
+</nav>
+
+<section>
+    <h2>Biz haqimizda</h2>
+    <p>
+        Ushbu sahifa HTML va CSS elementlarini o'rganish uchun
+        yaratilgan. Bu yerda matn, jadval, ro'yxat va forma mavjud.
+    </p>
+
+    <h3>Texnologiyalar</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Talabalar jadvali</h2>
+
+    <table>
+        <tr>
+            <th>Ism</th>
+            <th>Yosh</th>
+            <th>Kasb</th>
+        </tr>
+
+        <tr>
+            <td>Ali</td>
+            <td>20</td>
+            <td>Dasturchi</td>
+        </tr>
+
+        <tr>
+            <td>Vali</td>
+            <td>22</td>
+            <td>Dizayner</td>
+        </tr>
+
+        <tr>
+            <td>Sardor</td>
+            <td>21</td>
+            <td>Talaba</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Aloqa formasi</h2>
+
+    <form>
+        <input type="text" placeholder="Ismingiz">
+
+        <input type="email" placeholder="Email">
+
+        <textarea rows="5" placeholder="Xabaringiz"></textarea>
+
+        <button type="submit">Yuborish</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Mening HTML Saytim. Barcha huquqlar himoyalangan.</p>
+</footer>
+
+</body>
+</html>
