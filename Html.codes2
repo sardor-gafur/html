@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Mening Saytim</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f2f2f2;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background: #444;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 20px;
+            background: #3498db;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+        }
+
+        button {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .content {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Website</h1>
+    <p>Shaxsiy web sahifam</p>
+</header>
+
+<nav>
+    <a href="#">Bosh sahifa</a>
+    <a href="#">Men haqimda</a>
+    <a href="#">Loyihalar</a>
+    <a href="#">Aloqa</a>
+</nav>
+
+<section class="hero">
+    <h1>Salom! 👋</h1>
+    <p>Men web dasturlashni o‘rganmoqdaman.</p>
+    <button onclick="salom()">Bosish</button>
+</section>
+
+<div class="content">
+
+    <div class="card">
+        <h2>Men haqimda</h2>
+        <p>
+            HTML va CSS yordamida zamonaviy
+            web sahifalar yaratishni o‘rganaman.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Ko‘nikmalar</h2>
+        <p>HTML ⭐⭐⭐⭐⭐</p>
+        <p>CSS ⭐⭐⭐⭐</p>
+        <p>JavaScript ⭐⭐⭐</p>
+    </div>
+
+    <div class="card">
+        <h2>Loyihalar</h2>
+        <p>🌐 Portfolio</p>
+        <p>🛒 Online do‘kon</p>
+        <p>🎮 Gaming sayt</p>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 My Website</p>
+</footer>
+
+<script>
+    function salom() {
+        alert("Salom! Saytimga xush kelibsiz 😊");
+    }
+</script>
+
+</body>
+</html>
