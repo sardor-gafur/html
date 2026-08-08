@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Restaurant</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff8f0;
+            color: #333;
+        }
+
+        header {
+            background: #8b0000;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background: #5c0000;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: #f5d6b3;
+        }
+
+        .hero h2 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #8b0000;
+            color: white;
+            padding: 14px 25px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .menu {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .menu h2 {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .foods {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .food {
+            background: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 12px #ccc;
+        }
+
+        .food h3 {
+            color: #8b0000;
+        }
+
+        .price {
+            font-size: 22px;
+            font-weight: bold;
+            color: #d2691e;
+        }
+
+        .contact {
+            background: #eee;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        footer {
+            background: #5c0000;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🍽 Delicious Restaurant</h1>
+        <p>Eng mazali taomlar maskani</p>
+    </header>
+
+    <nav>
+        <a href="#home">Bosh sahifa</a>
+        <a href="#menu">Menyu</a>
+        <a href="#contact">Aloqa</a>
+    </nav>
+
+    <section class="hero" id="home">
+        <h2>Yangi ta'mlarni kashf eting!</h2>
+        <p>Sifatli mahsulotlar va mazali taomlar siz uchun.</p>
+        <a href="#menu" class="btn">Menyuni ko‘rish</a>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2>🍴 Bizning menyu</h2>
+
+        <div class="foods">
+
+            <div class="food">
+                <h3>🍕 Pizza</h3>
+                <p>Pishloq, pomidor va maxsus sous bilan.</p>
+                <p class="price">65 000 so‘m</p>
+            </div>
+
+            <div class="food">
+                <h3>🍔 Burger</h3>
+                <p>Mol go‘shti, pishloq, salat va maxsus sous.</p>
+                <p class="price">45 000 so‘m</p>
+            </div>
+
+            <div class="food">
+                <h3>🍗 Chicken</h3>
+                <p>Qarsildoq tovuq va mazali garnir bilan.</p>
+                <p class="price">55 000 so‘m</p>
+            </div>
+
+            <div class="food">
+                <h3>🍝 Pasta</h3>
+                <p>Maxsus sous va pishloq bilan tayyorlangan pasta.</p>
+                <p class="price">50 000 so‘m</p>
+            </div>
+
+            <div class="food">
+                <h3>🥗 Salat</h3>
+                <p>Yangi sabzavotlardan tayyorlangan foydali salat.</p>
+                <p class="price">30 000 so‘m</p>
+            </div>
+
+            <div class="food">
+                <h3>☕ Cappuccino</h3>
+                <p>Yumshoq va xushbo‘y italyan qahvasi.</p>
+                <p class="price">25 000 so‘m</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>📞 Biz bilan bog‘laning</h2>
+        <p>Telefon: +998 90 123 45 67</p>
+        <p>Email: delicious@example.com</p>
+        <p>Manzil: Toshkent shahri</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Delicious Restaurant. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+</body>
+</html>
