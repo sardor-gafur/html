@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salom, Sardor!</title>
+</head>
+<body>
+
+    <h1>Salom, Sardor!</h1>
+    <p>Men HTML o‘rganayapman.</p>
+
+    <button onclick="alert('Salom, Sardor!')">
+        Bos
+    </button>
+
+</body>
+</html>
