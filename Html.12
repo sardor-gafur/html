@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sardor's Website</title>
+</head>
+<body>
+
+    <h1>Salom, mening saytimga xush kelibsiz!</h1>
+
+    <p>Men HTML o‘rganayapman.</p>
+
+    <h2>Men haqimda</h2>
+    <p>Men kelajakda IT engineer bo‘lishni xohlayman.</p>
+
+    <h2>Mening qiziqishlarim</h2>
+    <ul>
+        <li>Python</li>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>IT</li>
+    </ul>
+
+    <button onclick="alert('Salom, Sardor!')">
+        Bos
+    </button>
+
+</body>
+</html>
