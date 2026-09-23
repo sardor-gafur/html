@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>Sardor's Website</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f2f2f2;
+            padding-top: 100px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        #message {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Salom, Sardor! 👋</h1>
+
+    <button onclick="showMessage()">Bos</button>
+
+    <p id="message"></p>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").textContent =
+                "Bugun ham kod yozishni davom ettir! 🚀";
+        }
+    </script>
+
+</body>
+</html>
