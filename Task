@@ -1,0 +1,75 @@
+tasks = []
+
+def show_tasks():
+    if not tasks:
+        print("\n📭 Hozircha vazifalar yo‘q.")
+        return
+
+    print("\n📋 Vazifalar:")
+    for i, task in enumerate(tasks, 1):
+        status = "✅" if task["done"] else "⬜"
+        print(f"{i}. {status} {task['name']}")
+
+def add_task():
+    name = input("\nYangi vazifa: ").strip()
+
+    if name:
+        tasks.append({
+            "name": name,
+            "done": False
+        })
+        print("✅ Vazifa qo‘shildi!")
+    else:
+        print("❌ Vazifa nomi bo‘sh bo‘lishi mumkin emas.")
+
+def complete_task():
+    show_tasks()
+
+    if not tasks:
+        return
+
+    try:
+        number = int(input("\nQaysi vazifa bajarildi? "))
+        tasks[number - 1]["done"] = True
+        print("🎉 Vazifa bajarildi!")
+    except (ValueError, IndexError):
+        print("❌ Noto‘g‘ri raqam.")
+
+def delete_task():
+    show_tasks()
+
+    if not tasks:
+        return
+
+    try:
+        number = int(input("\nQaysi vazifani o‘chiramiz? "))
+        deleted = tasks.pop(number - 1)
+        print(f"🗑️ '{deleted['name']}' o‘chirildi.")
+    except (ValueError, IndexError):
+        print("❌ Noto‘g‘ri raqam.")
+
+while True:
+    print("\n" + "=" * 30)
+    print("       📝 TO-DO LIST")
+    print("=" * 30)
+    print("1. Vazifalarni ko‘rish")
+    print("2. Vazifa qo‘shish")
+    print("3. Vazifani bajarish")
+    print("4. Vazifani o‘chirish")
+    print("5. Chiqish")
+
+    choice = input("\nTanlang: ")
+
+    if choice == "1":
+        show_tasks()
+    elif choice == "2":
+        add_task()
+    elif choice == "3":
+        complete_task()
+    elif choice == "4":
+        delete_task()
+    elif choice == "5":
+        print("👋 Dastur tugadi.")
+        break
+    else:
+        print("❌ Bunday tanlov mavjud emas.")
